@@ -36,7 +36,7 @@ const Home = () => {
                         <div>
                             <input
                                 onChange={(e) => setCity(e.target.value)}
-                                className='bg-transparent border-none text-white focus:outline-none text-2xl' type="text" placeholder='Search city' />
+                                className='bg-transparent border-none text-white focus:outline-none text-2xl capitalize' type="text" placeholder='Search city' />
                         </div>
                         <button onClick={fetchWeather}><BsSearch size={20} /></button>
                     </form>
