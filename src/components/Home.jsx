@@ -10,7 +10,7 @@ const Home = () => {
     const [weather, setWeather] = useState({})
     const [loading, setLoading] = useState(false)
 
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=5411cb8f11258d8ff81cf6d24d7dc13e`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=5411cb8f11258d8ff81cf6d24d7dc13e`
 
     const fetchWeather = (e) => {
         e.preventDefault()
