@@ -19,9 +19,9 @@ const Home = () => {
     }
     return (
         <>
-            <div className='bg-[url(https://images.unsplash.com/photo-1542376088-c241964bf5f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80)] w-full h-screen bg-no-repeat bg-center bg-cover'>
+            <div className='bg-image w-full h-screen bg-no-repeat bg-center bg-cover'>
                 {/* overlay */}
-                <div className='bg-black/40 absolute top-0 left-0 right-0 bottom-0 z-[1]'></div>
+                <div className='bg-black/40 absolute top-0 left-0 right-0 bottom-0 h-screen z-[1]'></div>
                 {/* search */}
                 <div className='relative flex jusify-between items-center max-w-[500px] w-full pt-4 px-4 m-auto text-white z-10'>
                     <form onSubmit={fetchWeather} className='flex justify-between items-center w-full m-auto p-3 bg-transparent border border-gray-300 rounded-2xl'>
